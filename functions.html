@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+    <title>Functions</title>
+    <body>
+        <h1>Functions</h1>
+        <!--QUESTION ONE START -->
+        <h4>Create a block of code that you can use several times</h4>
+        
+        <p id="add"></p>
+        
+        <!--QUESTION One End -->
+        
+        
+        <!--QUESTION Two START -->
+        <h4>Write a function that display current date and time in your browser.</h4>
+        
+        <p id="dte"></p>
+        <!--QUESTION TWO  END -->
+        
+        <!--QUESTION THREE START -->
+        <h4>Write a function that takes first and last name then greets the user using his full name.</h4>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+        <input type="button" value="Submit" onclick="fullname()">
+        
+        <p id="displayname"></p>
+        <!--QUESTION THREE END -->
+        
+        <!--QUESTION FOUR START -->
+        <h4>Write a funtion that add two numbers (input by user) and return the sum of two numbers.</h4>
+        <input type="number" name="addfirst" id="addfirst" placeholder="Enter First Value">
+        
+        <input type="number" name="addsecond" id="addsecond" placeholder="Enter Second Value">
+        
+        <input type="button" value="ADD" onclick="ad()">
+        
+        <p id="displaysum"></p>
+        <!--QUESTION FOUR END -->
+        
+        <!--QUESTION FIVE START -->
+        <h4>Write a function that takes three arguments num1, num2 & operator and compute the desired operation. Return and show the desired result in your browser</h4>
+        <input type="number" name="num1" id="num1" placeholder="First Value">
+        <input type="number" name="num2" id="num2" placeholder="Second Value">
+        <input type="button" onclick="add()" value="+">
+        <input type="button" onclick="sub()" value="-">
+        <input type="button" onclick="mul()" value="*">
+        <input type="button" onclick="div()" value="/">
+        
+        <p id="cal"></p>
+        <!--QUESTION FIVE END -->
+        
+        
+        <!-- QUESTION SIX START--->
+         <h4>Write a function that square its argument.</h4>
+
+        <h5>Answer: <p id="sq"></p>
+        <!--QUESTION six END -->
+            
+            
+        <!--QUESTION SEVEN START -->
+        <h4>Write a function that computes factorial of a number.</h4>
+            <p id="fact"></p>
+        <!--QUESTION SEVEN END -->
+            
+            
+            
+        <!--QUESTION Eight START -->
+        <h4>Write a function that take start and end number as input & display the counting in your browser.</h4>
+            <input type="number" name="none" id="none" placeholder="Enter first number">
+            <input type="number" name="ntwo" id="ntwo" placeholder="Enter Second Number">
+            <input type="button" onclick="counting()" value="Start Counting">
+        <p id="showcount"></p>
+            
+        <!--QUESTION Eight START -->
+        <!--Question Nine Start-->
+        <h4>Write a nested function that computes hypotenuse of a right angle triangle. Take base and perpendicular as inputs. Outer function: calculate Hypotenuse() Inner function:calculateSquare()</h4>
+        <input type="text" name="bs" id="bs" placeholder="BASE">
+        <input type="text" name="pd" id="pd" placeholder="PERPENDICULAR">
+        <input type="button" onclick="formula()" value="Calculate">
+        <p id="hyp"></p>
+        <!--Question Nine END-->
+            
+        <!--Question 10 start-->
+        <h4>Write a funtion that writes variable length arguments list in your browser.</h4>    
+        <button onclick="checklength()">Check Length</button>
+            <p id="ten"></p>
+        <!--Question 10 end-->
+            
+            <!--11-->
+            <h4>Write a function that accepts any number of arguments and find the largest of the number.</h4>
+            <p id="eleven"></p>
+            
+            <!--END-->
+            
+            <!--12-->
+            <h4>Write a function that calculates the area of a rectangle. A = Width * Height pass width and height in the following manner</h4>
+            <h4>A: Arguments as values</h4>
+            <h4>B: Arguments as variables</h4>
+            
+            <p id="twelve"></p>
+
+            <!--END-->
+            
+            
+            <!--13-->
+            <h4>Write a function that receives an array & return the sorted array.</h4>
+            <input type="button" onclick="sortfunction()" value="Sort">
+            <p id="thirteen"></p>
+            <!--END-->
+            
+            <!--14-->
+            <h4>Write a function that takes number array, sums its elements and return the sum.</h4>
+            <p id="forteen"></p>
+            <!--END-->
+            
+            <!---Fifteen in javascript we write sixteeen--->
+            
+            <h4>Write a function that computes power of a number. 2 power 3 is 8.</h4>
+            <p id="sixteen"></p>
+            <!---end--->
+            
+            <!---Seventeen-->
+            <h4>Write a function that simulate a dice and return a random dice value.</h4>
+            <button id="dice()">Roll Dice</button>
+            <p id="seventeen"></p>
+            <!-----END-------->
+            
+            <!------EIGHTEEEN--------------->
+            
+            <h4>Write a JavaScript function that reverse a number.</h4>
+            <p id="eighteen"></p>
+            <button onclick="revfunction()">Reverse</button>
+            
+            <!---------END------------------->
+            
+            <!-------------Ninteen-------->
+            
+            <h4>Write a JavaScript function that checks whether a passed string is palindrome or not? A palindrome is word, Phrase, or sequence that reads the same backward as forward, eg madam</h4>
+
+            <p id="ninteenA"></p>
+            <p id="ninteenB"></p>
+
+            <!--------------END--------->
+            
+            <!-----------Twenty------------>
+            
+            <h4>Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.Exapmple String:'the quick brown fox' Expected Output:'The Quick Brown Fox'</h4>
+            <p id="twenty"></p>
+            <!------------END-------------->
+        
+            <!---twentyone-->
+            <h4>Write a JavaScript function thats accepts a string as a parameter and find the longest word within the string. EXAMPLE STRING: 'Wev Development Tutorial' EXPECTED OUTPUT: 'Development'</h4>
+            <p id="twentyone"></p>
+            
+            <!---END--->
+            
+            <!--twentytwo-->
+            <h4>Write a JavaScript function that accepts a string as a parameter and counts the number vowels within the string.EXAMPLE STRING:"The Quick Fox" EXPECTED OUTPUT:"5"</h4>
+            <p id="twentytwo"></p>
+            <!----End----->
+            <!----tewntythree---->
+            
+            <h4>Write a JavaScript function which accepts an argument and returns the type. Note : There are six possible values that typeof return:Object,boolean,function,number,string and undefined.</h4>
+            <p id="tewntythree"></p>
+            
+            <!-----------END------->
+            
+            <!-------twentyfour---------->
+            <h4>Write a function to extract unique characters from a string. </h4>
+            <p id="twentyfour"></p>
+            <!-----------END--------------->
+            <!--------twentyfive---------->
+            <h4>Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.Sample arguments :'JSResourceS.com','o'</h4>
+            <p id="twentyfive"></p>
+            <!--------------END---------->
+            
+            <!---------twentysix----------->
+            
+            <h4>Forgot how old you are?Calculate it!</h4>
+            <h4>Write a function named calculateAge that:(1)Take 2 arguments:birth year, Current year.(2)calculate the possible age based on those years.(3)output the result to the screen like so:"You are entire NN or NN".(4)call the function three times with different sets of values.(5)BONUS: Figure out how to get the current year in JavaScript instead of passing it in.
+            </h4>
+            <p id="twentysixA"></p>
+            <p id="twentysixB"></p>
+            <p id="twentysixC"></p>
+            <p id="twentysixD"></p>
+            <!-------------END-------------->
+            
+            <!--------twentyseven--------->
+            <h4>Write a JavaScript function named calculateSupply that(1)Take 2 arguments age and amount  per day(2)calculate the amount consumed for rest of the life(based on a consatant)</h4>
+            <input type="text" id="agevalue" placeholder="Age">
+            <input type="text" id="stuff" placeholder="Amount">
+            <button onclick="supply()">Calculate</button>
+            <p id="twentyseven"></p>
+            <!--------------END---------->
+            
+            
+            <!--------twentyeight--------->
+            <h4>Create 2 functions that calculate properties of a circle , using the definations here.Create a function called calcCircumference:(1)Pass the radius to the function.(2)Calculate the circumference based on the radius, and output"The circumference is NN"</h4>
+            <h4>Create a function called calcArea:(1)Pass the radius to the function.(2)Calculate the area based on the radius, and output "The area is NN"</h4>
+
+            <p id="twentyeigthA"></p>
+            <p id="twentyeigthB"></p>
+            <!--------------END---------->
+            
+            
+            
+            <!--------twentynine--------->
+            <h4>TEMPERATURE CONVERTER</h4>
+
+            <p id="twonineA"></p>
+            <p id="twonineB"></p>
+            <!--------------END---------->
+            
+            
+            
+            
+            
+            
+            
+            
+<!--------------------------------------------H  T  M   L ------------------------------------------------------------------------->           
+        <script>
+            var x = addFunction(1, 5);
+            document.getElementById("add").innerHTML = x;
+
+                  function addFunction(a,b){
+                    return a + b;
+                  }    
+
+            var d = new Date();
+            document.getElementById("dte").innerHTML = d;
+            
+            function fullname(){
+                var first = document.getElementById("firstname").value;
+                var second = document.getElementById("lastname").value;
+                
+                document.getElementById("displayname").innerHTML = "Welcome"+" "+first +" "+ second;
+            }
+            
+            function ad(){
+                var first = Number(document.getElementById("addfirst").value);
+                var second = Number(document.getElementById("addsecond").value);
+                var total = first+second; 
+                document.getElementById("displaysum").innerHTML = total;     
+            }
+            ////CALCULATOR //////////////////////////////////////////////////
+            function add(){
+                var v1 = Number(document.getElementById("num1").value); 
+                var v2 = Number(document.getElementById("num2").value);
+                var total = v1+v2;
+                document.getElementById("cal").innerHTML = "TOTAL:"+" "+total; 
+                }
+            function sub(){
+                var v1 = Number(document.getElementById("num1").value); 
+                var v2 = Number(document.getElementById("num2").value);
+                var total = v1-v2;
+                document.getElementById("cal").innerHTML = "TOTAL:"+" "+total; 
+                }
+            function mul(){
+                var v1 = Number(document.getElementById("num1").value); 
+                var v2 = Number(document.getElementById("num2").value);
+                var total = v1*v2;
+                document.getElementById("cal").innerHTML = "TOTAL:"+" "+total; 
+                }
+            function div(){
+                var v1 = Number(document.getElementById("num1").value); 
+                var v2 = Number(document.getElementById("num2").value);
+                var total = v1/v2;
+                document.getElementById("cal").innerHTML = "TOTAL:"+" "+total; 
+                }
+            ///////////////END////////////////////////////////////////////////////     
+            /////Sqauare////////
+            function sqr(n){
+                return n*n;
+            }
+            document.getElementById("sq").innerHTML = "5 square = "+ sqr(5);
+            ////END/////
+            ////////Factorial///////
+            function factorial(f){
+                if((f===0) || (f===1))
+                    return 1;
+                else 
+                    return (f * factorial(f - 1));
+                }
+            document.getElementById("fact").innerHTML = "5 Factorial = "+ factorial(5);
+            ///////END//////////////////
+            /////////Counting Function ////////////////////////////////
+            function counting(){
+                var one,two;
+                var result ="";
+                one = Number(document.getElementById("none").value);
+                two = Number(document.getElementById("ntwo").value);
+                while(one <= two){
+                    result +="<br> NUMBER"+ one;
+                    one++;
+                }
+                document.getElementById("showcount").innerHTML = result;
+            } 
+            ///////////////////END//////////////////////////////////
+            function formula() {
+                var base,per,total;
+                base = document.getElementById("bs").value;
+                per = document.getElementById("pd").value;
+                total = Math.sqrt(base*base  + per*per) ;
+                document.getElementById("hyp").innerHTML = "Hypotenuse ="+" "+total;
+            }
+            ////////////////////END///////////////
+            /////////////////TEN//////////////
+                function checklength(){
+                    var str = ["e","a","t"];
+                    var total = str.length;
+                   document.getElementById("ten").innerHTML ="LIST[e,a,t]"+" "+ total;
+                }
+             
+                        
+            ///////////////END///////////////
+            
+            /////////////////LARGE NUMBER///////////////
+            function findMax() {
+                var i;
+                var max = -Infinity;
+                for(i = 0; i < arguments.length; i++) {
+                    if (arguments[i] > max) {
+                        max = arguments[i];
+                    }
+                }
+                return max;
+            } 
+            document.getElementById("eleven").innerHTML = "array [4, 5, 7]="+" "+findMax(4, 5, 7);
+        ////////////////////////////////////
+            
+            ///////////////////TWELVE A////////////////////////////
+            
+            function area(width,height){
+                return width * height; 
+            }
+            document.getElementById("twelve").innerHTML ="A = 3 * 5 =>"+""+ area(3,5);
+            ///////////////////END////////////////////////////////
+            
+            
+
+            
+            
+            
+            ///////////SORTED////////////////
+            var list = ["x","w","r","n","z","y"];
+            document.getElementById("thirteen").innerHTML = "UNSORTED "+" "+list;
+            
+            function sortfunction(){
+                list.sort();
+                document.getElementById("thirteen").innerHTML = "SORTED = "+" "+list;
+            }
+            ////////////END/////////////////
+            /////////SUM OF ALLL///////////////
+            function sumtotal(){
+                var i;
+                var sum = 0;
+                for(i=0; i< arguments.length; i++){
+                    sum += arguments[i];
+                }
+                return sum;
+            }
+            document.getElementById("forteen").innerHTML = "Sum of [2,45,67,112,4] ="+" "+sumtotal(2,45,67,112,4);
+            ////////////END/////////////////
+            
+            
+            
+            //////////////////Fifteen////////////
+                            
+            var param = function inner(){
+                
+                return typeof inner;
+            }
+            alert(param());
+            //////////////////////END////////////
+            
+            ////////////////////Sixteen///////////
+            
+            function cube(val){
+                return val * val * val;
+            }
+            document.getElementById("sixteen").innerHTML ="2 POWER 3 ="+""+ cube(2);
+            //////////////////////END/////////////
+            
+            /////////////////SEVENTEEN////////////
+            
+            function dice(){
+                var side = 6;
+                var rnumber = Math.floor(Math.random()*side)+1;
+                return rnumber;
+            }
+            document.getElementById("seventeen").innerHTML = dice();
+            ///////////////////END////////////////
+            
+            //////////////////Eighteen////////////
+            
+            var revlist = [3,2,2,4,3];
+            document.getElementById("eighteen").innerHTML ="List ="+""+ revlist;
+            
+            function revfunction(){
+                revlist.reverse();
+                document.getElementById("eighteen").innerHTML = "Reverse List"+""+revlist;
+            }
+            /////////////////////END//////////////
+            
+            /////////////////ninteeen////////////
+    
+            function palindrome(pstr){
+                var len = pstr.length;
+                var mid = Math.floor(len/2);
+                
+                for(var x = 0; x < mid; x++){
+                    if(pstr[x] !== pstr[len - 1 -x]){
+                        return false;
+                    }
+                }
+                return true;
+            }
+            document.getElementById("ninteenA").innerHTML ="madam =>"+""+ palindrome("madam");
+            document.getElementById("ninteenB").innerHTML ="noman  =>"+""+ palindrome("noman");
+            ////////////////////END////////////
+            
+            ////////////////////Twenty////////////
+            function caps(s){
+                s = s.split(" ");
+                for(var i = 0, x = s.length; i < x; i++){
+                    s[i] = s[i][0].toUpperCase() + s[i].substr(1);
+                }
+                return s.join(" ");
+            }
+           document.getElementById("twenty").innerHTML ="this is test =>"+" "+ caps("this is test"); 
+            
+            ////////////////////END////////////
+            //
+            
+            
+            
+            /////////////////21/////////////////
+            function checklong(cword){
+                var str = cword.split(" ");
+                var lgt = 0;
+                var value = null;
+                for(var i = 0; i<str.length;i++){
+                    if(lgt < str[i].length){
+                        lgt = str[i].length;
+                        value = str[i];
+                    }
+                }
+                return value;
+            }
+            document.getElementById("twentyone").innerHTML ="What is your fav color ? ==>"+ checklong("What is your fav color ?");
+            //////////////////END/////////////
+            
+            ////////////////22//////////////////////
+            
+            function vowel(findv){
+                var vlist = 'aeiouAEIOU';
+                var vcount = 0;
+                for(var i = 0; i < findv.length; i++){
+                    if(vlist.indexOf(findv[i]) !== -1){
+                        vcount +=1;
+                    }
+                }
+                return vcount;
+            }
+            document.getElementById("twentytwo").innerHTML ="The Quick Brown Fox =>"+ vowel("The Quick Brown Fox");
+            ///////////////////END///////////////////
+            
+            
+            /////////////////23/////////////////////
+
+            var typen = 12;
+            var types = "Hello";
+            var typeo = {fname:"farhan",lname:"ali"};
+            var typeu;
+            var typeb = (typen == typen);
+            
+            document.getElementById("tewntythree").innerHTML = 
+                "12 => "+typeof typen+"<br>"+
+                "Hello => "+typeof types+"<br>"+
+                "fname:farhan,lname:ali => "+typeof typeo+"<br>"+
+                "variable => "+typeof typeu+"<br>"+
+                " a==v => "+typeof typeb+"<br>"+
+                "function() => "+typeof function myFunctype(){};
+            
+            ////////////////END///////////////////
+            
+            
+            
+            //////////////////24//////////////////
+            
+            function uchar(val){
+                var cval = val;
+                var unique ="";
+                for(var i=0;i<cval.length;i++){
+                    if(unique.indexOf(cval.charAt(i))==-1){
+                        unique += cval[i];
+                    }
+                }
+                return unique;
+            }
+            document.getElementById("twentyfour").innerHTML ="thequickbrownfoxjumpsoverthelazydog => "+ uchar("thequickbrownfoxjumpsoverthelazydog");
+            /////////////////END//////////////////
+            
+            
+            ////////////////////25//////////////////////////////////
+            
+            
+            function lcount(ms,ss){
+                ms += '';
+                ss += '';
+                if(ss.length <= 0){
+                    return ms.length +1;
+                }
+                subv = ss.replace(/[.*+?^${}()|\\]/g,'\\$&');
+                return (ms.match(new RegExp(subv,'gi')) || []).length;
+            }
+            document.getElementById("twentyfive").innerHTML = "JSResourceS.com,o"+" Answer is ="+lcount('JSResourceS.com','o');
+            //////////////////////END//////////////////////////////
+            
+            ///////////////////////26//////////////////////////////////
+            var dt = new Date();
+            function calculateAge(dob){
+                var ms = Date.now() - dob.getTime();
+                var age = new Date(ms);
+                return Math.abs(age.getUTCFullYear() - 1970);
+            }
+            document.getElementById("twentysixA").innerHTML = "1995, 03, 16 = "+calculateAge(new Date(1995, 03, 16))+" Year Old";
+            document.getElementById("twentysixB").innerHTML = "1999, 09, 23 = "+calculateAge(new Date(1999, 09, 23))+" Year Old";
+            document.getElementById("twentysixC").innerHTML = "2004, 05, 1 = "+calculateAge(new Date(2004, 05, 1))+" Year Old";
+            document.getElementById("twentysixD").innerHTML = "BONUS : " + dt.getFullYear();
+            
+        
+            
+            ///////////////////////END/////////////////////////////////
+            
+            /////////////////////27/////////////////////////////////
+            
+            function supply(){
+                var age = document.getElementById("agevalue").value;
+                var mage=100;
+                var amount = document.getElementById("stuff").value;
+                var total = (amount * 365)*(mage - age);
+                document.getElementById("twentyseven").innerHTML ="You will need "+ total+" to last you until the ripe old age of "+age;
+            }
+            ////////////////////////END////////////////////////////
+            
+            
+            /////////////////////////////28////////////////////////////
+            
+            function calAC(radius){
+                this.radius = radius;
+                //area
+                this.area = function(){
+                    return Math.PI * this.radius * this.radius;
+                };
+                //circ
+                this.circum = function(){
+                    return 2*Math.PI*this.radius;
+                };
+            }
+            var calC = new calAC(3);
+            document.getElementById("twentyeigthA").innerHTML = "AREA = "+calC.area().toFixed(2);
+            
+            document.getElementById("twentyeigthB").innerHTML = "Circumference = "+calC.circum().toFixed(2);
+            //////////////////////////END////////////////////////////
+            
+            
+            
+
+                function cToF(celsius) 
+                {
+                  var cTemp = celsius;
+                  var cToFahr = cTemp * 9 / 5 + 32;
+                  var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+                    return message;
+                }
+
+                function fToC(fahrenheit) 
+                {
+                  var fTemp = fahrenheit;
+                  var fToCel = (fTemp - 32) * 5 / 9;
+                  var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+                    return message;
+                } 
+                document.getElementById("twonineA").innerHTML ="fahrenheit ="+ cToF(60);
+                 document.getElementById("twonineB").innerHTML ="celsius = "+ fToC(45);
+
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>
+    </body>
+</html>
